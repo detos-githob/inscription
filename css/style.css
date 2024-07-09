@@ -69,6 +69,10 @@ list-style: none;
     font-style: normal;
 }
 
+.navbar .icon{
+    display: none;
+}
+
 /* fin de style d'entête */
 
 /* Début de style section 1 */
@@ -119,6 +123,10 @@ list-style: none;
 .mobile-button{
     display: none;
 }
+
+.navbar .icon-mobile{
+    display: none;
+}
 /* Début de style:  responsivité */
 
 @media screen and (max-width: 426px) {
@@ -131,10 +139,44 @@ list-style: none;
 .navbar .nav-button{
         display: none;
     }
+    
 .navbar{
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+
     }
+
+    /* debut style menu berger; */
+
+    .navbar .icon-mobile{
+        display: flex;
+        font-size: 2em;
+        color: #204B9B;
+
+    }
+
+    .navbar .icon-mobile{
+        position: absolute;
+        left: 20px;
+    }
+
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    
+    .navbar .logo img{
+        width: 70%;
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+
+        
+
+    }
+
+
+
+    /* fin style menu berger */
 .section1 .section1-row1{
     flex-direction: column;
     align-items: center;
@@ -172,11 +214,19 @@ list-style: none;
 }
 .section1-row1 .col2 .mobile-button{
     display: flex;
+    justify-content: center;
 }
 
 .section1-row1 .desktop-button{
     display: none;
 }
+
+.section1-row1 .col2 .mobile-button{
+    position: relative;
+    left: 30px;
+}
+
+
 
 }
 
