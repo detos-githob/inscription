@@ -198,6 +198,8 @@ list-style: none;
 
 .section1-row1 .col2 img{
     width: 100%;
+   
+    
  
 }
 
@@ -211,6 +213,9 @@ list-style: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* padding-right: 0px; */
+    margin-right: 0px;
+    
 }
 .section1-row1 .col2 .mobile-button{
     display: flex;
@@ -221,10 +226,10 @@ list-style: none;
     display: none;
 }
 
-.section1-row1 .col2 .mobile-button{
+/* .section1-row1 .col2 .mobile-button{
     position: relative;
     left: 30px;
-}
+} */
 
 
 
